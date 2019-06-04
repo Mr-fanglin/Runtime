@@ -15,12 +15,12 @@ runtime相关代码
 
 
 ## 2.Method Swizzling   
-  方法交换 method_exchangeImplementations  
+  * 方法交换 method_exchangeImplementations  
   例：UITableView 中 dataSource 为空时显示默认背景图片  
   关键代码：  
-    `
+  ```
 Method originMethod = class_getInstanceMethod(self, @selector(reloadData));  
 Method currentMethod = class_getInstanceMethod(self, @selector(fl_reloadData));  
 method_exchangeImplementations(originMethod, currentMethod);
-     `
   
+```
