@@ -1,8 +1,6 @@
 # Runtime  
 
-# Runtime  
-
-## 1.消息转发  
+### 1.消息转发  
   * 动态消息解析 （resolveInstanceMethod）  
   * 快速转发 （forwardingTargetForSelector）  
   * 慢速转发  
@@ -13,7 +11,7 @@
 **注：以上流程可以解决app的健壮性，可以防止app闪退**  
 
 
-## 2.Method Swizzling   
+### 2.Method Swizzling   
   * 方法交换 method_exchangeImplementations  
   例：UITableView 中 dataSource 为空时显示默认背景图片  
   关键代码：  
