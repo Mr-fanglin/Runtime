@@ -10,7 +10,7 @@ runtime相关代码
       * 方法签名 （methodSignatureForSelector）  
       * 消息转发 （forwardInvocation）  
   
-  如果消息转发失败，会调用 doesNotRecognizeSelector 方法  
+  * 如果消息转发失败，会调用 doesNotRecognizeSelector 方法  
 **注：以上流程可以解决app的健壮性，可以防止app闪退**  
 
 
