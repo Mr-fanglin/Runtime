@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D10CCB0422AE516C0031D3AD /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = D10CCB0322AE516C0031D3AD /* Student.m */; };
 		D147A54022A64A8F0011A944 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D147A53F22A64A8F0011A944 /* AppDelegate.m */; };
 		D147A54322A64A8F0011A944 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D147A54222A64A8F0011A944 /* ViewController.m */; };
 		D147A54622A64A8F0011A944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D147A54422A64A8F0011A944 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D10CCB0222AE516C0031D3AD /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		D10CCB0322AE516C0031D3AD /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		D147A53B22A64A8F0011A944 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D147A53E22A64A8F0011A944 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D147A53F22A64A8F0011A944 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				D147A57822A665FD0011A944 /* SpareWheel.m */,
 				D147A57422A6560F0011A944 /* UITableView+FLDefaultDisplay.h */,
 				D147A57522A6560F0011A944 /* UITableView+FLDefaultDisplay.m */,
+				D10CCB0222AE516C0031D3AD /* Student.h */,
+				D10CCB0322AE516C0031D3AD /* Student.m */,
 			);
 			path = RuntimeDemo;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				D147A54322A64A8F0011A944 /* ViewController.m in Sources */,
 				D147A54E22A64A910011A944 /* main.m in Sources */,
 				D147A57922A665FD0011A944 /* SpareWheel.m in Sources */,
+				D10CCB0422AE516C0031D3AD /* Student.m in Sources */,
 				D147A57222A64BD30011A944 /* Person.m in Sources */,
 				D147A54022A64A8F0011A944 /* AppDelegate.m in Sources */,
 			);

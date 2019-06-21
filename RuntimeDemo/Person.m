@@ -35,7 +35,7 @@ void sendMessage(id self, SEL _cmd, NSString *msg){
 
 //慢速转发
 //1.方法签名
-//2.消息转发
+//2.消息转发r
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector{
     NSString * methodName = NSStringFromSelector(aSelector);
     if ([methodName isEqualToString:@"sendMessage:"]) {
